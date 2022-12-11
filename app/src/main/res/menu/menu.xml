@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        app:iconTint="@color/white"/>
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+
+        />
+    <item
+        android:id="@+id/group_chat"
+        android:title="Group Chat"
+
+        />
+   <item
+       android:id="@+id/logout"
+       android:title="Logout"
+       />
+
+</menu>
